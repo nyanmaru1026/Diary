@@ -65,3 +65,11 @@
 a{
   text-decoration: none;
 }
+
+.content-center-new{
+  position: absolute;
+  margin-left: 600px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
