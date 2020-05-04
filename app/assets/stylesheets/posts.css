@@ -128,18 +128,23 @@ a{
   margin-top: 20px;
   font-size: 40px;
   font-weight: bold;
-
+  /* margin-left: 55px; */
 }
 
 .content-center-bottom-show{
   position: absolute;
   margin-top: 70px;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 .post-sentence{
   position: absolute;
-  margin-top: 100px;
-  margin-left: 75px;
+  margin-top: 120px;
+  /* margin-left: 75px; */
 }
 
+.edit{
+  position: absolute;
+  margin-top: 95px;
+  margin-left: 85px;
+}
