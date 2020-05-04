@@ -3,7 +3,7 @@
     <div class = "content-sentence">
       <div class= "content-center">
         <div class= "content-center-top">
-          <%= post.title %>
+          <%= link_to post.title, post_path(post.id), class: "content__right__top--title" %>
         </div>
         <div class= "content-center-bottom">
           <%= post.created_at %>

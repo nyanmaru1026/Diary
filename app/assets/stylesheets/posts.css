@@ -117,3 +117,29 @@ a{
   margin-left: 100px;
   width: 100px;
 }
+
+.show{
+  margin: auto;
+  width: 210px;
+}
+
+.content-center-top-show{
+  position: absolute;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.content-center-bottom-show{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 15px;
+}
+
+.post-sentence{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 75px;
+}
+
