@@ -1,0 +1,24 @@
+
+ <div class="content">
+    <div class = "content-sentence">
+      <div class= "content-center">
+        <div class = "show">
+          <div class= "content-center-top-show">
+            <%= @post.title %>
+          </div>
+          <div class= "content-center-bottom-show">
+            <%= @post.created_at %>
+          </div>
+          <div class= "post-sentence">
+            <%= simple_format @post.content %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-side">
+      <div class="content-left">
+      </div>
+      <div class="content-right">
+      </div>
+    </div>
+  </div>
