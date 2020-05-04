@@ -9,6 +9,9 @@
           <div class= "content-center-bottom-show">
             <%= @post.created_at %>
           </div>
+          <div class = "edit">
+            <%= link_to "編集", edit_post_path(@post.id), class: "post-edit-btn"%>
+          </div>
           <div class= "post-sentence">
             <%= simple_format @post.content %>
           </div>

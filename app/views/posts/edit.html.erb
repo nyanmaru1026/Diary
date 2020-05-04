@@ -1,0 +1,20 @@
+<div class="content">
+    <div class = "content-sentence">
+      <div class= "content-center">
+        <div class= "content-center-new">
+          記録の編集
+        </div>
+        <%= form_with model: @post, class: :form, local: true do |form| %>
+        <%= form.text_field :title, placeholder: :タイトル, class: :form_title %>
+        <%= form.text_area :content, placeholder: :記事本文, class: :form_text %>
+        <%= form.submit '記録する', class: :form_post %>
+        <% end %>
+      </div>
+    </div>
+    <div class="content-side">
+      <div class="content-left">
+      </div>
+      <div class="content-right">
+      </div>
+    </div>
+  </div>
